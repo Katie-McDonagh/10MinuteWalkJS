@@ -1,2 +1,3 @@
 function tenMinuteWalk(){
+  return true
 }
