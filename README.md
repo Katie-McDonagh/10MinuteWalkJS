@@ -19,3 +19,7 @@ to be true:
 - array contents needs to have equal amounts of n + s, and e + w.
 
 anything else will be false.
+
+Notes:
+
+for the next test: I will determine the amount of N and S in an array to not be equal return false, iterate over the array counting the occurances of each letter.

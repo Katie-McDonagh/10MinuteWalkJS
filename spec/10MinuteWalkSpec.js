@@ -6,4 +6,8 @@ describe ("tenMinuteWalk", function(){
   it ("returns false when given an array with a length less than 10", function(){
     expect(tenMinuteWalk(['n'])).toEqual(false)
   })
+
+  it ("returns false when given an array with more s directions than n", function(){
+    expect(tenMinuteWalk(['e', 'e', 'e', 'w', 'w', 'w', 's', 's', 's', 'n'])).toEqual(false)
+  })
 });
