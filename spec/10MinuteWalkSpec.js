@@ -10,4 +10,8 @@ describe ("tenMinuteWalk", function(){
   it ("returns false when given an array with more s directions than n", function(){
     expect(tenMinuteWalk(['e', 'e', 'e', 'w', 'w', 'w', 's', 's', 's', 'n'])).toEqual(false)
   })
+
+  it ("returns false when given an array with more n directions than s", function(){
+    expect(tenMinuteWalk(['e', 'e', 'e', 'w', 'w', 'w', 's', 'n', 'n', 'n'])).toEqual(false)
+  })
 });
